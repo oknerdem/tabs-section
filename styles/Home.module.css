@@ -22,3 +22,7 @@
 .name {
   @apply text-base font-semibold text-center text-neutral-800 dark:text-neutral-200 items-center inline-flex;
 }
+
+.infoSection {
+  @apply flex flex-col gap-5;
+}

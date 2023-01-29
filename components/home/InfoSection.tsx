@@ -19,25 +19,32 @@ const InfoSection = () => {
     <>
       <section className={styles.sections}>
         <NameSection selectedName={selectedName} nameHandler={nameHandler} />
+
         <div className={styles.infoSection}>
-          <div className={styles.info}>
-            <p className="text-gray-500 dark:text-gray-400">{person?.job}</p>
-            <p className="text-gray-500 dark:text-gray-400">
+          <div>
+            <p className="text-neutral-700 dark:text-neutral-100 text-2xl">
+              {person?.job}
+            </p>
+            <div className="pb-3 pt-2">
+              <p className="px-2 py-1 bg-zinc-700 max-w-fit rounded-lg text-zinc-300 text-base">
+                {person?.name}
+              </p>
+            </div>
+            <p className="text-neutral-700 dark:text-neutral-300">
               {person?.duration}
             </p>
           </div>
           <div className={styles.info}>
             <section className="flex flex-col gap-2">
-              <p className="text-gray-500 dark:text-gray-400">{person?.info}</p>
-              <p className="text-gray-500 dark:text-gray-400">
-                {person?.info2}
-              </p>
-              <p className="text-gray-500 dark:text-gray-400">
-                {person?.info3}
-              </p>
-              <p className="text-gray-500 dark:text-gray-400">
-                {person?.info4}
-              </p>
+              {person?.infos &&
+                Object.values(person.infos).map((info, index) => (
+                  <p
+                    key={index}
+                    className="text-neutral-700 dark:text-neutral-400"
+                  >
+                    🍃 {info}
+                  </p>
+                ))}
             </section>
           </div>
         </div>
