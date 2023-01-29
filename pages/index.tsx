@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Header from '@/components/Header';
 import Title from '@/components/home/Title';
 import NameSection from '@/components/home/NameSection';
+import InfoSection from '@/components/home/InfoSection';
 
 const Home = () => {
   const title = 'Experience';
@@ -20,7 +21,10 @@ const Home = () => {
     <>
       <Header title={header} content={content} />
       <Title title={title} />
-      <NameSection selectedName={selectedName} nameHandler={nameHandler} />
+      <div className="flex flex-col md:flex-row  max-w-2xl w-full items-center mx-auto gap-10">
+        <NameSection selectedName={selectedName} nameHandler={nameHandler} />
+        <InfoSection selectedName={selectedName} />
+      </div>
     </>
   );
 };

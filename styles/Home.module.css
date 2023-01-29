@@ -12,7 +12,7 @@
 }
 
 .nameSection {
-  @apply flex flex-col w-full h-screen justify-center items-start max-w-4xl mx-auto gap-4;
+  @apply flex md:flex-col flex-row md:h-screen justify-center md:items-start items-center h-full md:mt-0 mt-40 max-w-4xl mx-auto gap-4;
 }
 
 .name {
