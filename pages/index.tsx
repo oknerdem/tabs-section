@@ -1,8 +1,9 @@
+import { NextPage } from 'next';
 import Header from '@/components/Header';
 import Title from '@/components/home/Title';
 import InfoSection from '@/components/home/InfoSection';
 
-const Home = () => {
+const Home: NextPage = () => {
   const title = 'Experience';
   const header = 'Tabs';
   const content =
