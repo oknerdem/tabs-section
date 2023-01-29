@@ -9,17 +9,18 @@ const Home = () => {
   const content =
     'Tabs App with Next.js & Tailwind CSS & TypeScript & AutoAnimate';
 
-  const [name, setName] = useState<string>('John');
+  const [selectedName, setSelectedName] = useState<string>('john');
 
-  const currentName = (e: any) => {
-    setName(e.target.innerText);
+  const nameHandler = (e: any) => {
+    const name = e.target.innerText.toLowerCase();
+    setSelectedName(name);
   };
 
   return (
     <>
       <Header title={header} content={content} />
       <Title title={title} />
-      <NameSection categoryHandler={currentName} />
+      <NameSection selectedName={selectedName} nameHandler={nameHandler} />
     </>
   );
 };
