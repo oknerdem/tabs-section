@@ -26,3 +26,27 @@
 .infoSection {
   @apply flex flex-col gap-5;
 }
+
+.infoTitle {
+  @apply text-neutral-700 dark:text-neutral-100 text-2xl;
+}
+
+.infoName {
+  @apply px-2 py-1 bg-zinc-700 max-w-fit rounded-lg text-zinc-300 text-base;
+}
+
+.infoDuration {
+  @apply text-neutral-700 dark:text-neutral-300;
+}
+
+.infoDescription {
+  @apply text-neutral-700 dark:text-neutral-400;
+}
+
+.infoDescGen {
+  @apply flex flex-col gap-2;
+}
+
+.spacing {
+  @apply pb-3 pt-2;
+}
