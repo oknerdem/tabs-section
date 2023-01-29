@@ -11,6 +11,10 @@
   @apply block w-10 h-1 mx-auto bg-indigo-400 dark:bg-indigo-600 -rotate-[65deg];
 }
 
+.sections {
+  @apply flex flex-col md:flex-row  max-w-2xl w-full items-center mx-auto gap-10;
+}
+
 .nameSection {
   @apply flex md:flex-col flex-row md:h-screen justify-center md:items-start items-center h-full md:mt-0 mt-40 max-w-4xl mx-auto gap-4;
 }
