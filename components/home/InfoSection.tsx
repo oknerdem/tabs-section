@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import People from '@/data/Data';
-import InfoTable from '@/components/home/InfoTable';
 import NameSection from '@/components/home/NameSection';
+import InfoTable from '@/components/home/InfoTable';
 import styles from '@/styles/Home.module.css';
 
 const InfoSection = () => {
