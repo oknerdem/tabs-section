@@ -2,4 +2,4 @@
 
 ###### _Built with_ Next.js & TailwindCSS & AutoAnimate.
 
-![Tabs App Screenshot](./public/TabsApp.png)
+![Tabs App Screenshot](./public/Tabs.png)
