@@ -32,7 +32,7 @@
 }
 
 .infoName {
-  @apply px-2 py-1 bg-zinc-700 max-w-fit rounded-lg text-zinc-300 text-base;
+  @apply px-2 py-1 bg-zinc-300 dark:bg-zinc-700 max-w-fit rounded-lg text-zinc-700 dark:text-zinc-300 text-base;
 }
 
 .infoDuration {
