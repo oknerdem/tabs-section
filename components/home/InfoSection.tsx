@@ -8,7 +8,7 @@ import styles from '@/styles/Home.module.css';
 const InfoSection = () => {
   const [selectedName, setSelectedName] = useState<string>('john');
   const [parent] = useAutoAnimate<HTMLDivElement>({
-    duration: 450,
+    duration: 250,
   });
 
   const nameHandler = (e: any) => {
