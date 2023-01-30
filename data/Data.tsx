@@ -6,7 +6,7 @@ const People = [
     duration: 'December 2015 - Present',
     infos: {
       info1:
-        'carry jianbing normcore freegan. Viral single-origin coffee live-edge, pork belly cloud bread iceland put a bird',
+        "I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed",
       info2:
         'Portland chicharrones ethical edison bulb, palo santo craft beer chia heirloom iPhone everyday',
       info3:
