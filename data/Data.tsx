@@ -36,11 +36,11 @@ const People = [
     duration: 'May 2014 - September  2017',
     infos: {
       info1:
-        'skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel tincidunt luctus, nunc elit lacinia nisl, vitae aliquam nisl nunc vel sem.',
       info2:
-        'Portland chicharrones ethical edison bulb, palo santo craft beer chia heirloom iPhone everyday',
+        'skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.',
       info3:
-        'Shabby chic keffiyeh neutra snackwave pork belly shoreditch. Prism austin mlkshk truffaut, post-ironic thundercats',
+        'on it tumblr kickstarter thundercats migas everyday carry squid palo santo leggings. Food truck truffaut',
     },
   },
 ];
