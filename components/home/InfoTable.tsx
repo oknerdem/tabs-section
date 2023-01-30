@@ -13,18 +13,19 @@ interface InfoTableProps {
 }
 
 const InfoTable = ({ person, key }: InfoTableProps) => {
+  const { name, job, duration, infos } = person;
   return (
     <div key={key} className={styles.infoSection}>
       <div>
-        <p className={styles.infoTitle}>{person?.job}</p>
+        <p className={styles.infoTitle}>{job}</p>
         <div className={styles.spacing}>
-          <p className={styles.infoName}>{person?.name}</p>
+          <p className={styles.infoName}>{name}</p>
         </div>
-        <p className={styles.infoDuration}>{person?.duration}</p>
+        <p className={styles.infoDuration}>{duration}</p>
       </div>
       <div className={styles.info}>
         <section className={styles.infoDescGen}>
-          {person?.infos &&
+          {infos &&
             Object.values(person.infos).map((info, index) => (
               <p key={index} className={styles.infoDescription}>
                 🍃 {info}
